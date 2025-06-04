@@ -1,0 +1,96 @@
+body{
+    font-size: 30px;
+    background-color: lightblue;
+    font-family:Arial, Geneva, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.container h1 {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(212, 122, 37);
+    
+
+}
+.recipe-menu {
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.listing {
+    float: left;
+}
+
+.listing a {
+    display:inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left:230px;
+   
+}
+
+li a:link {
+    color: white;
+}
+
+li a:hover {
+    color:green;
+}
+
+li a:active {
+    color: blue;
+    background-color: white;
+}
+
+h2, h3 {
+    text-decoration-line:underline;
+    font-size: 24px;
+}
+.recipe-photo {
+    border: 4px solid white;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.description {
+    line-height: 1.5;
+    
+    overflow:auto;
+    
+}
+.text-font-size {
+    font-size: 18px;
+    text-align:justify;
+}
+
+ul li {
+    list-style-position: inside;
+    
+}
+
+.no-float {
+    font-size: 18px;
+    line-height: 1.5;
+    clear: left;
+}
+
+.no-float li {
+    margin-bottom: 15px;
+}
+
+.unordered {
+    background-color: lightcyan;
+}
+
+.end-of-page {
+   
+    font-weight: bold;
+    font-style: italic;
+}
